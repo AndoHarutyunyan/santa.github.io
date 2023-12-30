@@ -9,6 +9,9 @@ body {
   background-size: cover;
   height: 100vh;
   position: relative;
+  display: flex;
+  align-items: end;
+  bottom: 160px;
 }
 .main{
     display: flex;
