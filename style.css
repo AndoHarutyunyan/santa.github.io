@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("./nkar/bgimg.jpg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.main{
+    display: flex;
+    padding: 20px;
+    text-align: left;
+}
+.imgPart {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.textPart{
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    width: calc(100% - 265px);
+    
+    
+}
